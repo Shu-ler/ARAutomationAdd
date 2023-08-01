@@ -52,6 +52,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <roles>Role.ДКА_БазовыеПрава</roles>
   <roles>Role.ДКА_ПолныеПрава</roles>
 </mdclass:Configuration>
