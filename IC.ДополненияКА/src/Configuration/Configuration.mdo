@@ -34,6 +34,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ДКА_ПолныеПрава</defaultRoles>
   <vendor>Филимонов И.В. +7 913 240 81 77</vendor>
   <version>2.513.1.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -51,5 +52,6 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <roles>Role.ДКА_БазовыеПрава</roles>
+  <roles>Role.ДКА_ПолныеПрава</roles>
 </mdclass:Configuration>
