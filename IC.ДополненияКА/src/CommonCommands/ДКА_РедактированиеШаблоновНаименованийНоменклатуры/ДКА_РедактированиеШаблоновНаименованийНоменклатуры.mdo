@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17e20603-5b1f-4205-ada0-63cd8233ed29">
+  <name>ДКА_РедактированиеШаблоновНаименованийНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование шаблонов наименований номенклатуры</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
