@@ -55,9 +55,11 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <roles>Role.ДКА_БазовыеПрава</roles>
   <roles>Role.ДКА_ПолныеПрава</roles>
+  <commonModules>CommonModule.ДКА_РедактированиеШаблоновНаименований</commonModules>
   <commonModules>CommonModule.ДКА_СобытияФорм</commonModules>
   <commonModules>CommonModule.НастройкиПрограммыПереопределяемый</commonModules>
   <commonCommands>CommonCommand.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</commonCommands>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
