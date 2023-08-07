@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ac4ee4b0-5cc1-40ab-a1a3-8cb2ab701547" extendedConfigurationObject="d69e99a6-b6b4-4e1c-95d1-d7997206773c">
+  <producedTypes>
+    <objectType typeId="34c4e23b-6dc6-4846-916a-fdf51d08d77f" valueTypeId="d26515ee-3323-4621-b89b-8e73a5935e5e"/>
+    <refType typeId="a16a88d8-d516-42dd-9c1d-2daab38bfd29" valueTypeId="b649b507-f02e-4c70-af74-6ba1948d2142"/>
+    <selectionType typeId="dc33df89-972d-4044-a51f-d911a9ffbebc" valueTypeId="2b77c305-2750-4566-bbdc-f6405357d868"/>
+    <listType typeId="add42aa2-8ead-461c-92d9-7728b4f7b535" valueTypeId="4ebe3f65-4441-46f8-a412-3cecdc4f9e3a"/>
+    <managerType typeId="cad7ab6c-ef95-4690-b4c7-085eb69c63da" valueTypeId="b9c52cdd-4861-4e0b-9024-9ad204fb4383"/>
+  </producedTypes>
+  <name>УстановкаЦенНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="75b9593a-6fad-4ba1-ad75-fb93caabef84" extendedConfigurationObject="fa358103-b0d9-4936-b18c-99a353b041d9">
+    <producedTypes>
+      <objectType typeId="b5537699-1224-43dc-a6a9-11881756601f" valueTypeId="dca12638-0afc-4c4e-8cce-0032e3e5292d"/>
+      <rowType typeId="9d7299ab-2f14-4ae3-ba6f-f248383cecfb" valueTypeId="35a146a6-4d85-4abc-974f-c89ab91819eb"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="2eea7183-76c1-41d1-93a7-3b5eb59d98f8" extendedConfigurationObject="9d03fe16-0be3-43c0-946b-4e518d310a23">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -53,13 +53,41 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <commonPictures>CommonPicture.Номенклатура</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.ПрочиеПользовательскиеНастройки</commonPictures>
+  <commonPictures>CommonPicture.ФильтрПоСвойствам</commonPictures>
   <roles>Role.ДКА_БазовыеПрава</roles>
   <roles>Role.ДКА_ПолныеПрава</roles>
+  <commonModules>CommonModule.ДКА_ПодключаемыеКомандыКлиент</commonModules>
   <commonModules>CommonModule.ДКА_РедактированиеШаблоновНаименований</commonModules>
   <commonModules>CommonModule.ДКА_СобытияФорм</commonModules>
+  <commonModules>CommonModule.ДКА_СобытияФормВызовСервера</commonModules>
+  <commonModules>CommonModule.ДКА_СобытияФормКлиент</commonModules>
+  <commonModules>CommonModule.ДКА_Стд</commonModules>
+  <commonModules>CommonModule.ДКА_ФормыОбъектов</commonModules>
+  <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.НастройкиПрограммыПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПодборТоваровКлиент</commonModules>
+  <commonModules>CommonModule.ПодборТоваровСервер</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
+  <definedTypes>DefinedType.Цена</definedTypes>
   <commonCommands>CommonCommand.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commonCommands>CommonCommand.ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</commonCommands>
+  <commonCommands>CommonCommand.ИнтеграцияС1СДокументооборотСоздатьПисьмо</commonCommands>
+  <commonCommands>CommonCommand.Напомнить</commonCommands>
+  <commonCommands>CommonCommand.СозданиеСвязанныхОбъектов</commonCommands>
+  <commonCommands>CommonCommand.СоздатьЗаметкуПоПредмету</commonCommands>
+  <commandGroups>CommandGroup.Органайзер</commandGroups>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <enums>Enum.СпособыФормированияСегментов</enums>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.Задание</businessProcesses>
 </mdclass:Configuration>
