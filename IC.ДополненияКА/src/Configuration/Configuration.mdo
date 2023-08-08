@@ -84,6 +84,7 @@
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.СпособыФормированияСегментов</enums>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>

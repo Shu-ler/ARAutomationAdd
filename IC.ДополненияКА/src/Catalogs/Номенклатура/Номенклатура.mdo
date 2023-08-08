@@ -12,6 +12,19 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <attributes uuid="504d86cf-a0da-455c-97f0-1e5e2bac0c05" extendedConfigurationObject="bcf7d7fa-e8eb-40ae-b61c-2f1a7e19a77c">
+    <name>ФайлКартинки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.НоменклатураПрисоединенныеФайлы</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <tabularSections uuid="51a2781b-7911-4ba6-8236-02886266c1be" extendedConfigurationObject="344b6917-b413-4fae-aadd-d62836822de6">
     <producedTypes>
       <objectType typeId="9613fcbb-ba25-4f1c-a235-e431e2e3cf38" valueTypeId="9dfea2bb-2bc9-4ac6-ae17-3db6c41f7bd6"/>
