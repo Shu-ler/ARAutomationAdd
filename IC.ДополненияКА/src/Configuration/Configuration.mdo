@@ -67,6 +67,7 @@
   <commonModules>CommonModule.ДКА_СобытияФормКлиент</commonModules>
   <commonModules>CommonModule.ДКА_Стд</commonModules>
   <commonModules>CommonModule.ДКА_ФормыОбъектов</commonModules>
+  <commonModules>CommonModule.ДКА_ФормыОбъектовКлиентСервер</commonModules>
   <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.НастройкиПрограммыПереопределяемый</commonModules>
   <commonModules>CommonModule.ПодборТоваровКлиент</commonModules>
@@ -81,10 +82,12 @@
   <commonCommands>CommonCommand.СозданиеСвязанныхОбъектов</commonCommands>
   <commonCommands>CommonCommand.СоздатьЗаметкуПоПредмету</commonCommands>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <commonForms>CommonForm.ДКА_РасширениеСпискаНоменклатуры</commonForms>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.СпособыФормированияСегментов</enums>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
