@@ -36,7 +36,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ДКА_ПолныеПрава</defaultRoles>
   <vendor>Филимонов И.В. +7 913 240 81 77</vendor>
-  <version>2.513.1.1</version>
+  <version>2.513.2.2</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
