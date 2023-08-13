@@ -73,6 +73,7 @@
   <commonModules>CommonModule.ПодборТоваровКлиент</commonModules>
   <commonModules>CommonModule.ПодборТоваровСервер</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
+  <commonModules>CommonModule.УстановкаЦенСервер</commonModules>
   <definedTypes>DefinedType.Цена</definedTypes>
   <commonCommands>CommonCommand.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
