@@ -22,6 +22,8 @@
 
 #КонецОбласти
 
+//@skip-check module-unused-local-variable
+//@skip-check module-unused-local-variable
 #Область СлужебныеПроцедурыИФункции
 
 &НаСервереБезКонтекста
