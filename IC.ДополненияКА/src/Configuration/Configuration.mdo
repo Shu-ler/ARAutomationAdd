@@ -66,6 +66,7 @@
   <commonModules>CommonModule.ДКА_СобытияФормВызовСервера</commonModules>
   <commonModules>CommonModule.ДКА_СобытияФормКлиент</commonModules>
   <commonModules>CommonModule.ДКА_Стд</commonModules>
+  <commonModules>CommonModule.ДКА_СтдФормыКлиентСервер</commonModules>
   <commonModules>CommonModule.ДКА_ФормыОбъектов</commonModules>
   <commonModules>CommonModule.ДКА_ФормыОбъектовКлиентСервер</commonModules>
   <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
