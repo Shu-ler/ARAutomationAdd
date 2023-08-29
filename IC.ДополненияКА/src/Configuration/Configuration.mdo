@@ -75,6 +75,7 @@
   <commonModules>CommonModule.ПодборТоваровСервер</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
   <commonModules>CommonModule.УстановкаЦенСервер</commonModules>
+  <functionalOptions>FunctionalOption.ДКА_ИспользоватьСтраницуТехническиеХарактеристики</functionalOptions>
   <definedTypes>DefinedType.Цена</definedTypes>
   <commonCommands>CommonCommand.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
@@ -84,6 +85,7 @@
   <commonCommands>CommonCommand.СозданиеСвязанныхОбъектов</commonCommands>
   <commonCommands>CommonCommand.СоздатьЗаметкуПоПредмету</commonCommands>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <constants>Constant.ДКА_СтраницаТехническиеХарактеристики</constants>
   <commonForms>CommonForm.ДКА_РасширениеСпискаНоменклатуры</commonForms>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
