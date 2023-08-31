@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f716598-d4a4-46d1-8ced-765598ea5f92">
-  <name>ДКА_РедактированиеШаблоновНаименований</name>
+  <name>ДКА_КорректировкаДанных</name>
   <synonym>
     <key>ru</key>
-    <value>Редактирование шаблонов наименований</value>
+    <value>Корректировка данных</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>

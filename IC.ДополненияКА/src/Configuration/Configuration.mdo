@@ -36,7 +36,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ДКА_ПолныеПрава</defaultRoles>
   <vendor>Филимонов И.В. +7 913 240 81 77</vendor>
-  <version>2.513.2.2</version>
+  <version>2.513.3.31</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
@@ -60,8 +60,8 @@
   <commonPictures>CommonPicture.ФильтрПоСвойствам</commonPictures>
   <roles>Role.ДКА_БазовыеПрава</roles>
   <roles>Role.ДКА_ПолныеПрава</roles>
+  <commonModules>CommonModule.ДКА_КорректировкаДанных</commonModules>
   <commonModules>CommonModule.ДКА_ПодключаемыеКомандыКлиент</commonModules>
-  <commonModules>CommonModule.ДКА_РедактированиеШаблоновНаименований</commonModules>
   <commonModules>CommonModule.ДКА_СобытияФорм</commonModules>
   <commonModules>CommonModule.ДКА_СобытияФормВызовСервера</commonModules>
   <commonModules>CommonModule.ДКА_СобытияФормКлиент</commonModules>
@@ -77,6 +77,7 @@
   <commonModules>CommonModule.УстановкаЦенСервер</commonModules>
   <functionalOptions>FunctionalOption.ДКА_ИспользоватьСтраницуТехническиеХарактеристики</functionalOptions>
   <definedTypes>DefinedType.Цена</definedTypes>
+  <commonCommands>CommonCommand.ДКА_ЗаменаСимволовВАртикуле</commonCommands>
   <commonCommands>CommonCommand.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</commonCommands>
@@ -91,9 +92,11 @@
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.СпособыФормированияСегментов</enums>
+  <dataProcessors>DataProcessor.ДКА_ЗаменаСимволовВАртикуле</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>

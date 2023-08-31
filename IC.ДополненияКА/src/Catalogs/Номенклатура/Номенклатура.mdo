@@ -25,6 +25,35 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="7452bb6e-edae-440e-93ed-fc1d7de3d3cf" extendedConfigurationObject="a05b5fd6-cafb-4617-8026-2bf40ef192a8">
+    <name>Производитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Производители</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="99ba2dd5-2ee5-4e71-a2b8-81529ed126db" extendedConfigurationObject="722c3d13-753d-4b4f-82b9-d41340f96d79">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
   <tabularSections uuid="51a2781b-7911-4ba6-8236-02886266c1be" extendedConfigurationObject="344b6917-b413-4fae-aadd-d62836822de6">
     <producedTypes>
       <objectType typeId="9613fcbb-ba25-4f1c-a235-e431e2e3cf38" valueTypeId="9dfea2bb-2bc9-4ac6-ae17-3db6c41f7bd6"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4a916a8-2258-492f-bc8f-b9052e27e1b4">
+  <producedTypes>
+    <objectType typeId="d5350c23-702e-48f1-aa2f-13baa1eb2de8" valueTypeId="ea218941-e508-47c0-8fc8-ed305a6a1798"/>
+    <managerType typeId="58935e62-b7cf-4f05-8ceb-2be9332c871d" valueTypeId="7d1e720a-c68e-4744-bad4-bd52f4cc2247"/>
+  </producedTypes>
+  <name>ДКА_ЗаменаСимволовВАртикуле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена символов в артикуле</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДКА_ЗаменаСимволовВАртикуле.Form.Форма</defaultForm>
+  <forms uuid="f2eda90d-fddc-46b3-b326-27ee8d53fcfa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
