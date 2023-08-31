@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7a591b1-37ab-4c8d-83d5-b7a73237eb69">
+  <producedTypes>
+    <objectType typeId="178b97ba-d80d-429f-bcb0-b857f1c82317" valueTypeId="814e09ca-83b9-41de-afa2-f365b542c197"/>
+    <managerType typeId="267b4395-0493-4400-b725-29113e48d649" valueTypeId="701f4211-b574-4768-a2ec-e1ef3086e4fe"/>
+  </producedTypes>
+  <name>ДКА_ПереименованиеСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переименование свойства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДКА_ПереименованиеСвойства.Form.Форма</defaultForm>
+  <forms uuid="d4ec23ea-ebdb-4aa1-b7d8-0bcad438f545">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

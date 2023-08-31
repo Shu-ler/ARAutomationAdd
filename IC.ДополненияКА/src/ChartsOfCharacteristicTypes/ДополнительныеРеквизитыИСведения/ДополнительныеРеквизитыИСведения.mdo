@@ -14,4 +14,20 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <typeExtension/>
   </extension>
+  <attributes uuid="f6f98923-dcc9-44ac-b698-978ae803770b" extendedConfigurationObject="8adebe50-a946-40c2-9258-b17efe787e0e">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
 </mdclass:ChartOfCharacteristicTypes>

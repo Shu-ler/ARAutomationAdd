@@ -36,7 +36,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ДКА_ПолныеПрава</defaultRoles>
   <vendor>Филимонов И.В. +7 913 240 81 77</vendor>
-  <version>2.513.3.31</version>
+  <version>2.513.4.41</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
@@ -78,6 +78,7 @@
   <functionalOptions>FunctionalOption.ДКА_ИспользоватьСтраницуТехническиеХарактеристики</functionalOptions>
   <definedTypes>DefinedType.Цена</definedTypes>
   <commonCommands>CommonCommand.ДКА_ЗаменаСимволовВАртикуле</commonCommands>
+  <commonCommands>CommonCommand.ДКА_ПереименованиеСвойства</commonCommands>
   <commonCommands>CommonCommand.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</commonCommands>
@@ -97,6 +98,7 @@
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.СпособыФормированияСегментов</enums>
   <dataProcessors>DataProcessor.ДКА_ЗаменаСимволовВАртикуле</dataProcessors>
+  <dataProcessors>DataProcessor.ДКА_ПереименованиеСвойства</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
