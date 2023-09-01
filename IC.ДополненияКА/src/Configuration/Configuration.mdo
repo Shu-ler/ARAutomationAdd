@@ -88,6 +88,7 @@
   <commonCommands>CommonCommand.СоздатьЗаметкуПоПредмету</commonCommands>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <constants>Constant.ДКА_СтраницаТехническиеХарактеристики</constants>
+  <commonForms>CommonForm.ДКА_БыстраяУстановкаМинМакс</commonForms>
   <commonForms>CommonForm.ДКА_РасширениеСпискаНоменклатуры</commonForms>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
@@ -100,6 +101,7 @@
   <dataProcessors>DataProcessor.ДКА_ЗаменаСимволовВАртикуле</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_ПереименованиеСвойства</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
+  <informationRegisters>InformationRegister.ТоварныеОграничения</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Задание</businessProcesses>
