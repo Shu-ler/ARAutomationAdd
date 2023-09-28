@@ -52,6 +52,32 @@
       </typeExtension>
     </extension>
   </resources>
+  <resources uuid="2eccdaa1-1841-43bc-a443-0506158f527a" extendedConfigurationObject="9fc71146-a59f-4d79-b4bf-815578a256fd">
+    <name>МетодОбеспеченияПотребностей</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.МетодыОбеспеченияПотребностей</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="3684ec0c-7a5e-4137-a3ae-50221155ffe9" extendedConfigurationObject="de8da437-fd4b-4d4a-affc-10e4b76c4e6e">
+    <name>ОбеспечениеЗаказовПриПоддержанииЗапаса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ОбеспечениеЗаказовПриПоддержанииЗапаса</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
   <dimensions uuid="baf89f3d-9d29-459c-9f80-c137c923c9b0" extendedConfigurationObject="0f2d5e09-a07b-4a07-b9cb-f34046545392">
     <name>Склад</name>
     <objectBelonging>Adopted</objectBelonging>

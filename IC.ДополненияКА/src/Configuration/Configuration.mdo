@@ -97,6 +97,8 @@
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <enums>Enum.МетодыОбеспеченияПотребностей</enums>
+  <enums>Enum.ОбеспечениеЗаказовПриПоддержанииЗапаса</enums>
   <enums>Enum.СпособыФормированияСегментов</enums>
   <dataProcessors>DataProcessor.ДКА_ЗаменаСимволовВАртикуле</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_ПереименованиеСвойства</dataProcessors>
