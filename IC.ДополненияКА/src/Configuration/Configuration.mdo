@@ -29,21 +29,21 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6fd64495-376b-41b9-b0b6-7918c5ef3b51"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>ДКА_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ДКА_ПолныеПрава</defaultRoles>
   <vendor>Филимонов И.В. +7 913 240 81 77</vendor>
-  <version>2.513.4.41</version>
+  <version>2.514.4.41</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
     <value>Филимонов И.В. +7 913 240 81 77</value>
   </copyright>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.17</compatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="75f0198e-ccf8-4395-aab0-0683869468dc">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
