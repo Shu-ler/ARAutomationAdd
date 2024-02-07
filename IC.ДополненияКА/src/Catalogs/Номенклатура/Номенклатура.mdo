@@ -54,6 +54,19 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="ccfa5158-313d-4024-8c98-d3f30d06f2c9" extendedConfigurationObject="09a12ed1-441d-49a8-9f36-2093735e8d37">
+    <name>ВидНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <tabularSections uuid="51a2781b-7911-4ba6-8236-02886266c1be" extendedConfigurationObject="344b6917-b413-4fae-aadd-d62836822de6">
     <producedTypes>
       <objectType typeId="9613fcbb-ba25-4f1c-a235-e431e2e3cf38" valueTypeId="9dfea2bb-2bc9-4ac6-ae17-3db6c41f7bd6"/>

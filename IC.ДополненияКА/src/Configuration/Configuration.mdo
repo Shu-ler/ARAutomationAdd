@@ -60,6 +60,7 @@
   <commonPictures>CommonPicture.ФильтрПоСвойствам</commonPictures>
   <roles>Role.ДКА_БазовыеПрава</roles>
   <roles>Role.ДКА_ПолныеПрава</roles>
+  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
   <commonModules>CommonModule.ДКА_КорректировкаДанных</commonModules>
   <commonModules>CommonModule.ДКА_ПодключаемыеКомандыКлиент</commonModules>
   <commonModules>CommonModule.ДКА_СобытияФорм</commonModules>
@@ -92,19 +93,26 @@
   <commonForms>CommonForm.ДКА_РасширениеСпискаНоменклатуры</commonForms>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.КлючиАналитикиУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.МетодыОбеспеченияПотребностей</enums>
   <enums>Enum.ОбеспечениеЗаказовПриПоддержанииЗапаса</enums>
+  <enums>Enum.РаспределениеЗапасовСостояния</enums>
   <enums>Enum.СпособыФормированияСегментов</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
+  <reports>Report.ДКА_Неликвиды</reports>
   <dataProcessors>DataProcessor.ДКА_ЗаменаСимволовВАртикуле</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_ПереименованиеСвойства</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
+  <informationRegisters>InformationRegister.РаспределениеЗапасов</informationRegisters>
   <informationRegisters>InformationRegister.ТоварныеОграничения</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Задание</businessProcesses>
 </mdclass:Configuration>

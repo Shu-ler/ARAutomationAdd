@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9754a748-cac5-4534-932f-5182dd5ec80e">
+  <producedTypes>
+    <objectType typeId="7e4e08bc-78ed-46d5-8dc1-ed86bcfe6509" valueTypeId="9b9282fe-3933-4f6b-8826-58c43ce86bcb"/>
+    <managerType typeId="069759c6-7f9b-48af-9c77-b7fde98c5d28" valueTypeId="537bf26d-ad7c-4486-a1c6-b07a5fcfee37"/>
+  </producedTypes>
+  <name>ДКА_Неликвиды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Неликвиды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДКА_Неликвиды.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="94ab9c8e-2d21-4aae-ac32-f29a6a61d1ea">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
