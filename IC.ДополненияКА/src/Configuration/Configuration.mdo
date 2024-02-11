@@ -97,6 +97,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.СегментыНоменклатуры</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
@@ -109,6 +110,7 @@
   <dataProcessors>DataProcessor.ДКА_ЗаменаСимволовВАртикуле</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_ПереименованиеСвойства</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
+  <informationRegisters>InformationRegister.НоменклатураСегмента</informationRegisters>
   <informationRegisters>InformationRegister.РаспределениеЗапасов</informationRegisters>
   <informationRegisters>InformationRegister.ТоварныеОграничения</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
