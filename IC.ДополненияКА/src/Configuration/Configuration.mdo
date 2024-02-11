@@ -15,6 +15,7 @@
     <commandInterface>Extended</commandInterface>
     <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
     <defaultLanguage>Checked</defaultLanguage>
+    <modalityUseMode>Checked</modalityUseMode>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
     <defaultStyle>Extended</defaultStyle>
@@ -36,12 +37,13 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ДКА_ПолныеПрава</defaultRoles>
   <vendor>Филимонов И.В. +7 913 240 81 77</vendor>
-  <version>2.514.5.42</version>
+  <version>2.515.5.42</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
     <value>Филимонов И.В. +7 913 240 81 77</value>
   </copyright>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="75f0198e-ccf8-4395-aab0-0683869468dc">
