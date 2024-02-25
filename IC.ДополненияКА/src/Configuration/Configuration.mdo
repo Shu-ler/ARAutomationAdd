@@ -112,6 +112,7 @@
   <dataProcessors>DataProcessor.ДКА_ЗаменаСимволовВАртикуле</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_ПереименованиеСвойства</dataProcessors>
   <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
+  <informationRegisters>InformationRegister.ДКА_Неликвиды</informationRegisters>
   <informationRegisters>InformationRegister.НоменклатураСегмента</informationRegisters>
   <informationRegisters>InformationRegister.РаспределениеЗапасов</informationRegisters>
   <informationRegisters>InformationRegister.ТоварныеОграничения</informationRegisters>
