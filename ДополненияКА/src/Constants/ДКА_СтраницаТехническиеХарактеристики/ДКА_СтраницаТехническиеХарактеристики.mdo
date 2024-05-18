@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f1c614e-f455-42e1-a1b5-fb5b66d9e638">
+  <producedTypes>
+    <managerType typeId="3c1f5766-4a99-471e-83df-cb1ae34c81dc" valueTypeId="c3c0c949-e56c-4653-a845-71475747d24d"/>
+    <valueManagerType typeId="c923f383-902f-4135-a1bb-e8a19a00c1ff" valueTypeId="56190af4-e0ff-4d76-89c4-4ef2c203e163"/>
+    <valueKeyType typeId="cd001abf-6bf2-43b7-bf16-5e57bca374bc" valueTypeId="9c7c80b0-81c3-43c4-94a3-fc4ba5e2a827"/>
+  </producedTypes>
+  <name>ДКА_СтраницаТехническиеХарактеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страница технические характеристики</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

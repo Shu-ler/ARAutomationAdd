@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="959e95fa-d8d3-46a2-a152-c7a160833a8c" extendedConfigurationObject="55a4f076-d0ee-4eb0-888e-3dea56163b13">
+  <producedTypes>
+    <objectType typeId="2b176fd9-156c-4298-9df9-191e760b41bb" valueTypeId="cf76488b-1137-4d0c-87ac-6720751c8c5b"/>
+    <refType typeId="a6eab405-477c-4ae6-a024-21a7866f2541" valueTypeId="14b288f1-2a13-4148-b4bc-186202426a83"/>
+    <selectionType typeId="6dc5b809-9eba-47f7-adab-83efbac0c742" valueTypeId="6f9346eb-7dde-47cd-9626-b6e96df07025"/>
+    <listType typeId="4264ed34-2634-49e6-84bb-f5a3882d6586" valueTypeId="501b7e5a-be2d-4e93-8f9f-c55b5463334c"/>
+    <managerType typeId="fcd0f051-f6bc-465e-82c1-074e2acfaf52" valueTypeId="0c7ce8ca-aba9-4b01-90e0-2739c19a28ab"/>
+  </producedTypes>
+  <name>СегментыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <templates uuid="4610b332-f3f5-47a2-aea6-8d4d3fdb5246">
+    <name>ДКА_Неликвиды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неликвиды</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Catalog>

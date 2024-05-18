@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df6910ad-71f3-457d-8b7c-a7bf52cd3167">
+  <name>ДКА_ФормыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формы объектов</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

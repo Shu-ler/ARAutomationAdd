@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a07fa054-b1df-46dc-81b1-22d515da51d5">
+  <producedTypes>
+    <selectionType typeId="5a012452-8321-44aa-87cd-8446516df9db" valueTypeId="47f67a32-bf2d-4fb4-9d72-d1bfd4802d02"/>
+    <listType typeId="c5202d8b-f588-4607-9725-f3724f5f404c" valueTypeId="ca49c2b2-ba29-4d46-aecb-08fd08101753"/>
+    <managerType typeId="b8b4220d-64b7-4860-99ec-cfcf4130a9c9" valueTypeId="be902746-7a16-4993-9b36-df4953235730"/>
+    <recordSetType typeId="16c716c7-c94c-480c-aa49-b07ac893b5c8" valueTypeId="056479ba-31cd-4319-bfee-672e6940767b"/>
+    <recordKeyType typeId="d7d44a29-d251-4be0-9980-92ab357b508f" valueTypeId="5cbf8de1-8e50-4490-8434-cbd5a92296bf"/>
+    <recordType typeId="3ac67fd7-7f3e-45a0-9f6c-dce28af0b1e3" valueTypeId="0349de8e-e21c-4b03-8973-eddb05e8030f"/>
+    <recordManagerType typeId="6e7dce08-b29e-405a-86c6-7bc532cfcdfd" valueTypeId="bdcf4594-5c0c-4460-8f3d-0edf4702c50f"/>
+  </producedTypes>
+  <name>ДКА_Неликвиды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Неликвиды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Неликвидный товар</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Неликвидные товары</value>
+  </listPresentation>
+  <dimensions uuid="d58a0794-4356-466f-96ba-36a05ccd704e">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

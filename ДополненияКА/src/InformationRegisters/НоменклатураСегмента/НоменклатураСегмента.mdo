@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b2f6e59a-5384-4b14-a0b1-c347ba9d6b59" extendedConfigurationObject="368f38f9-efff-4a01-80c1-d99ec7f60ebb">
+  <producedTypes>
+    <selectionType typeId="e62fc125-bbec-4926-b2df-5affa889edf8" valueTypeId="1bd27c70-caa2-497f-9147-a9e6606fb567"/>
+    <listType typeId="93d45abd-925a-4d6b-b2ea-cc58af681be9" valueTypeId="97b93e3b-7c66-4e30-b547-ea7f18b9b49c"/>
+    <managerType typeId="d69fc88d-3f4b-4a16-8015-ed4948293fc0" valueTypeId="8d6b08ac-52ef-414f-9127-2df4783a1ffd"/>
+    <recordSetType typeId="55c71b6a-f218-494e-8fc0-1314761c8d5b" valueTypeId="cb56f325-defc-4d5e-9da4-b0814888f777"/>
+    <recordKeyType typeId="e71554c1-8a6d-4265-93dc-9039703cdeec" valueTypeId="6bdc8b27-81f6-45b8-b081-f3af536d84d8"/>
+    <recordType typeId="42de01c3-f18d-45a3-ac41-7186e27f6897" valueTypeId="f78efee9-e8ec-43e8-9a3f-9af4f95918bf"/>
+    <recordManagerType typeId="19d78262-8dc8-48a7-8708-75355c1278ce" valueTypeId="101cb65f-655d-4262-8fb8-8e96d1428e20"/>
+  </producedTypes>
+  <name>НоменклатураСегмента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="bd243f82-24a2-4272-a35d-d9ddfcaac7aa" extendedConfigurationObject="7213d70f-220e-4e61-acc2-3081ea7bda11">
+    <name>Сегмент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СегментыНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="636942ca-37e8-4738-b115-90250be9162f" extendedConfigurationObject="307ee022-4a56-42a2-bb91-6061e402e7ac">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="8cc412e6-0d28-4ae5-a4f2-340d2b7ecc93" extendedConfigurationObject="af381b0f-d9f0-41de-b02f-59630f579afb">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

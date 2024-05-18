@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9f5485c-0379-4f76-bff1-91b31e42ce51">
+  <name>ДКА_ИспользоватьСтраницуТехническиеХарактеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать страницу технические характеристики</value>
+  </synonym>
+  <location>Constant.ДКА_СтраницаТехническиеХарактеристики</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

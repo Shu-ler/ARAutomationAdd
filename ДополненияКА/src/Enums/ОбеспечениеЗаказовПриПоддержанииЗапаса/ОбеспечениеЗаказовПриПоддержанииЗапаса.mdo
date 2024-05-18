@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bfc793d9-25a0-4d24-97cf-27351aae11c3" extendedConfigurationObject="305bbad7-aef3-43ab-a970-3173f12309f4">
+  <producedTypes>
+    <refType typeId="cff9a7f0-a9f0-4193-8f57-297bcf5cb744" valueTypeId="5e4d8a96-5722-4b73-a1fd-19d2e0f8d87a"/>
+    <listType typeId="752f9bc0-a855-4812-8b99-d46ad26e24f9" valueTypeId="3ec5edfd-09ee-4f19-8702-495f2bc69f99"/>
+    <managerType typeId="8a0b9195-e0c5-40c3-8b0c-cf81b2c845e4" valueTypeId="860086f7-cdcc-4028-b8a8-aec9b3adcd4b"/>
+  </producedTypes>
+  <name>ОбеспечениеЗаказовПриПоддержанииЗапаса</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="6cce52fa-686e-4366-bf90-d55ddb187fb8" extendedConfigurationObject="c6dc4469-b326-469b-aae7-277dbcdbbf4c">
+    <name>ЗаСчетЗапасов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="194a1a54-6596-4c2d-a4cd-4d691ffd1539" extendedConfigurationObject="71ecd0a2-defd-4369-ab36-96a816f4a3b0">
+  <producedTypes>
+    <selectionType typeId="a1801696-df5a-46d9-90eb-efe818672c8d" valueTypeId="d1f9a948-a0e6-4e5e-8d89-a0451832a745"/>
+    <listType typeId="3c883f18-5a1f-4eb7-a7a6-810b6ab7f9c2" valueTypeId="8928ca5f-ae91-495f-9bc6-ce7a9d4200c6"/>
+    <managerType typeId="727beefb-0ef5-4a97-951d-e16a1e45f463" valueTypeId="18e718b2-d2ba-4f59-82fc-9c616c37bc3c"/>
+    <recordSetType typeId="a6f03857-7a78-4c2d-bcd7-85346667baba" valueTypeId="6bcd8257-66e7-44d2-ac3c-b908af117220"/>
+    <recordKeyType typeId="3902945b-0991-49f8-b9a1-08113e6a12c4" valueTypeId="70a0da9c-78b7-48c1-be88-d150ff32ba9c"/>
+    <recordType typeId="2e05435c-bb06-41b9-bade-0fafa8307ccb" valueTypeId="9c22d03c-0ed5-4e50-9f9a-23953dac89f9"/>
+    <recordManagerType typeId="78369c61-1b68-4fe2-967e-c73cae3d77e0" valueTypeId="09b36b7d-9067-477a-919f-975963a2bf4e"/>
+  </producedTypes>
+  <name>ТоварныеОграничения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="6cbae16c-bbe1-481e-83e4-22f3d50f1078" extendedConfigurationObject="d3bf25f1-b352-4de7-a3f0-12f193d49202">
+    <name>МинимальноеКоличествоЗапаса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="90e1d311-5b58-45a3-ab1a-1dde0b094e92" extendedConfigurationObject="ced83ca4-bef3-49e6-b409-a0201f65b2a0">
+    <name>МаксимальноеКоличествоЗапаса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="2eccdaa1-1841-43bc-a443-0506158f527a" extendedConfigurationObject="9fc71146-a59f-4d79-b4bf-815578a256fd">
+    <name>МетодОбеспеченияПотребностей</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.МетодыОбеспеченияПотребностей</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="3684ec0c-7a5e-4137-a3ae-50221155ffe9" extendedConfigurationObject="de8da437-fd4b-4d4a-affc-10e4b76c4e6e">
+    <name>ОбеспечениеЗаказовПриПоддержанииЗапаса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ОбеспечениеЗаказовПриПоддержанииЗапаса</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="baf89f3d-9d29-459c-9f80-c137c923c9b0" extendedConfigurationObject="0f2d5e09-a07b-4a07-b9cb-f34046545392">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="7b3a6c85-ced1-49a5-8d2f-488f8a187b48" extendedConfigurationObject="8318429d-9ef9-44fe-afe5-3c2b2cc18317">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

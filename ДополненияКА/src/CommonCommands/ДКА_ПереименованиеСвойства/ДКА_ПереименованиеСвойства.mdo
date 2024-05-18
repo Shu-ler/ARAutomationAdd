@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bd1afe1-a611-4897-a886-bc8a321a2316">
+  <name>ДКА_ПереименованиеСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переименование свойства</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

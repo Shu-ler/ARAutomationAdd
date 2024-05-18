@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e3762d9-bfbe-450e-a068-ca819bb47d91" extendedConfigurationObject="cc9cedf1-410d-414a-a05f-f167b8908470">
+  <producedTypes>
+    <selectionType typeId="aabc6018-dd69-46bd-a206-9ddf3fe56dd1" valueTypeId="04f1d0f6-b399-46a5-af26-66ed2502e7f7"/>
+    <listType typeId="ec8b5026-a406-438f-bdb7-65eeb38abee2" valueTypeId="eb6e40a3-c122-4236-ba27-d2544816db67"/>
+    <managerType typeId="ae24bd12-09c5-4bf4-84d0-6c552f1018ed" valueTypeId="a57e1d27-a351-419c-acaa-af83b8f0ab07"/>
+    <recordSetType typeId="80714a44-9a07-4de9-a2a0-e46bd6903e28" valueTypeId="6599c475-4e8f-44fc-b232-ea444b265654"/>
+    <recordKeyType typeId="c19d37a9-6c06-425a-bcf3-17b8bc76388d" valueTypeId="a6116bb8-0ee2-4ddb-8974-06eafeef286b"/>
+    <recordType typeId="ecb41759-95a0-4d4f-a163-127c6bcb49aa" valueTypeId="1ff82f93-ca80-4de3-9fbe-2bf406777acc"/>
+  </producedTypes>
+  <name>ВыручкаИСебестоимостьПродаж</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+  <dimensions uuid="d9ec8043-727c-4856-85c7-dc2ac54e14cd" extendedConfigurationObject="7eadb439-cbf2-4e6a-9022-fc66b8de8d58">
+    <name>АналитикаУчетаНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлючиАналитикиУчетаНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="fd20203d-69dd-4520-b810-676043361e3f" extendedConfigurationObject="9c966579-d355-4e6a-bd83-150dfc936345">
+    <name>ХозяйственнаяОперация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ХозяйственныеОперации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

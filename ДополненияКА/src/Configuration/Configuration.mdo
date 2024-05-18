@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="79964c32-ed80-46e0-8bb2-69f3638e2b11">
+  <name>ДополненияКА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнения для КА2.5, редакция 1.0</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <externalConnectionModule>Extended</externalConnectionModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <modalityUseMode>Checked</modalityUseMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e1ee53f2-f979-40be-bc1f-f2682e78fd8a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e6051cdc-2de6-4402-9123-98a1e3a79979"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9a2b8444-914e-4083-adad-62a568db7214"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="f0db9df4-6463-49f5-afef-439644cd184e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8613f740-0f33-4206-bb58-73dcedd10bed"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fcfaea6b-9fbd-418f-a6be-477261e42ffd"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6fd64495-376b-41b9-b0b6-7918c5ef3b51"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ДКА_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ДКА_ПолныеПрава</defaultRoles>
+  <vendor>Филимонов И.В. +7 913 240 81 77</vendor>
+  <version>2.516.5.42</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Филимонов И.В. +7 913 240 81 77</value>
+  </copyright>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="75f0198e-ccf8-4395-aab0-0683869468dc">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <commonPictures>CommonPicture.Номенклатура</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.ПрочиеПользовательскиеНастройки</commonPictures>
+  <commonPictures>CommonPicture.ФильтрПоСвойствам</commonPictures>
+  <roles>Role.ДКА_БазовыеПрава</roles>
+  <roles>Role.ДКА_ПолныеПрава</roles>
+  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
+  <commonModules>CommonModule.ДКА_КорректировкаДанных</commonModules>
+  <commonModules>CommonModule.ДКА_ПодключаемыеКомандыКлиент</commonModules>
+  <commonModules>CommonModule.ДКА_СобытияФорм</commonModules>
+  <commonModules>CommonModule.ДКА_СобытияФормВызовСервера</commonModules>
+  <commonModules>CommonModule.ДКА_СобытияФормКлиент</commonModules>
+  <commonModules>CommonModule.ДКА_Стд</commonModules>
+  <commonModules>CommonModule.ДКА_СтдФормыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ДКА_ФормыОбъектов</commonModules>
+  <commonModules>CommonModule.ДКА_ФормыОбъектовКлиентСервер</commonModules>
+  <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
+  <commonModules>CommonModule.НастройкиПрограммыПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПодборТоваровКлиент</commonModules>
+  <commonModules>CommonModule.ПодборТоваровСервер</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
+  <commonModules>CommonModule.УстановкаЦенСервер</commonModules>
+  <functionalOptions>FunctionalOption.ДКА_ИспользоватьСтраницуТехническиеХарактеристики</functionalOptions>
+  <definedTypes>DefinedType.ПрисоединенныйФайл</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
+  <commonCommands>CommonCommand.ДКА_ЗаменаСимволовВАртикуле</commonCommands>
+  <commonCommands>CommonCommand.ДКА_ПереименованиеСвойства</commonCommands>
+  <commonCommands>CommonCommand.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commonCommands>CommonCommand.ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</commonCommands>
+  <commonCommands>CommonCommand.ИнтеграцияС1СДокументооборотСоздатьПисьмо</commonCommands>
+  <commonCommands>CommonCommand.Напомнить</commonCommands>
+  <commonCommands>CommonCommand.СозданиеСвязанныхОбъектов</commonCommands>
+  <commonCommands>CommonCommand.СоздатьЗаметкуПоПредмету</commonCommands>
+  <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <constants>Constant.ДКА_СтраницаТехническиеХарактеристики</constants>
+  <commonForms>CommonForm.ДКА_БыстраяУстановкаМинМакс</commonForms>
+  <commonForms>CommonForm.ДКА_РасширениеСпискаНоменклатуры</commonForms>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.КлючиАналитикиУчетаНоменклатуры</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.СегментыНоменклатуры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <enums>Enum.МетодыОбеспеченияПотребностей</enums>
+  <enums>Enum.ОбеспечениеЗаказовПриПоддержанииЗапаса</enums>
+  <enums>Enum.РаспределениеЗапасовСостояния</enums>
+  <enums>Enum.СпособыФормированияСегментов</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
+  <reports>Report.ДКА_ИзображенияНоменклатуры</reports>
+  <reports>Report.ДКА_Неликвиды</reports>
+  <dataProcessors>DataProcessor.ДКА_ЗаменаСимволовВАртикуле</dataProcessors>
+  <dataProcessors>DataProcessor.ДКА_ПереименованиеСвойства</dataProcessors>
+  <dataProcessors>DataProcessor.ДКА_РедактированиеШаблоновНаименованийНоменклатуры</dataProcessors>
+  <informationRegisters>InformationRegister.ДвоичныеДанныеФайлов</informationRegisters>
+  <informationRegisters>InformationRegister.ДКА_Неликвиды</informationRegisters>
+  <informationRegisters>InformationRegister.НоменклатураСегмента</informationRegisters>
+  <informationRegisters>InformationRegister.РаспределениеЗапасов</informationRegisters>
+  <informationRegisters>InformationRegister.ТоварныеОграничения</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.Задание</businessProcesses>
+</mdclass:Configuration>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e78f6c5c-923e-4893-8643-9db2c79c6d46" extendedConfigurationObject="879216cd-58f8-4ae5-b494-20f33e3f24f9">
+  <producedTypes>
+    <refType typeId="1605f1ff-668b-44c3-8f43-30879b130b70" valueTypeId="bfcbb5ae-8d48-4d0b-98cf-0e24436e3794"/>
+    <listType typeId="fe31585a-5bb4-46ed-b6dc-1952bd98ac91" valueTypeId="27f439e2-7c2a-4c57-9620-7c357fb34dd0"/>
+    <managerType typeId="47699adb-61f9-48b9-b5a8-9a754d34f47f" valueTypeId="5979edda-fef3-41ca-abf2-0f1fdd7ebdae"/>
+  </producedTypes>
+  <name>МетодыОбеспеченияПотребностей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="f9ecfd4a-674a-4e09-b1d5-0a3182a32093" extendedConfigurationObject="123aad71-3991-4419-bc74-de443eb42763">
+    <name>ПоддержаниеЗапасаМинМакс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>
